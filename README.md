@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+# Landing Page Animada
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém o código-fonte de uma landing page moderna e animada, desenvolvida com React, TypeScript, Go e Tailwind CSS. Esta landing page é ideal para empresas que desejam uma presença digital impactante com uma experiência de usuário interativa.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Design Responsivo:** A página se adapta a diferentes tamanhos de tela, garantindo uma experiência ótima em dispositivos móveis e desktops.
+- **Animações Suaves:** Animações criadas com CSS e JavaScript para melhorar o apelo visual e a interatividade.
+- **Estilização com Tailwind CSS:** Uso de classes utilitárias para um desenvolvimento ágil e customização fácil.
+- **Componentização com React:** Interface modular, facilitando a manutenção e extensão do projeto.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **[React](https://reactjs.org/):** Biblioteca JavaScript para construção de interfaces de usuário.
+- **[TypeScript](https://www.typescriptlang.org/):** Superconjunto de JavaScript que adiciona tipagem estática.
+- **[Tailwind CSS](https://tailwindcss.com/):** Framework de CSS utilitário para estilização rápida e responsiva.
 
-- Configure the top-level `parserOptions` property like this:
+## Instalação
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Pré-requisitos
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Node.js (v14 ou superior)
+
+### Passos para Rodar o Projeto Localmente
+
+1. **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/Joao-AugustoPF/lp-platform.git
+   cd nome-do-repositorio
