@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 100px;
+}
+
+.custom-dots li button:before {
+  color: rgba(99, 102, 241, 0.8); /* Indigo-500 */
+}
+
+.custom-dots li.slick-active button:before {
+  color: #6366f1; /* Indigo-500 */
+}
