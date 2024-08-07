@@ -27,4 +27,3 @@ Este repositório contém o código-fonte de uma landing page moderna e animada,
 
    ```bash
    git clone https://github.com/Joao-AugustoPF/lp-platform.git
-   cd nome-do-repositorio
